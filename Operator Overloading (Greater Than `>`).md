@@ -13,14 +13,14 @@ To write a Python program that demonstrates **operator overloading** by overload
 
 2. **Overload the `<` Operator**:
    - Define the `__lt__()` method with logic:
-     - If `self.a < o.a`, return `"ob1 is less than ob2"`
-     - Else, return `"ob2 is less than ob1"`
+     - If `self.a > o.a`, return `"ob1 is greater than ob2"`
+     - Else, return `"ob2 is greater than ob1"`
 
 3. **Create Objects**:
    - Instantiate two objects `ob1` and `ob2` with values.
 
 4. **Use `<` Operator**:
-   - Use `print(ob1 < ob2)` to trigger the overloaded behavior.
+   - Use `print(ob1 > ob2)` to trigger the overloaded behavior.
 
 ---
 
