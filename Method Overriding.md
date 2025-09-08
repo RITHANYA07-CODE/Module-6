@@ -1,4 +1,4 @@
-# 🐟 Method Overriding-Fish and Shark Class Inheritance in Python
+# 🐦 Method Overriding – Bird, Sparrow, and Ostrich Class Inheritance in Python
 
 ## 🧠 AIM:
 To write a Python program that demonstrates class inheritance by creating a parent class `Bird` with a method `flight`, and two child classes `Sparrow` and `Ostrich` that override the `flight` method. 
