@@ -1,8 +1,8 @@
-# 🐍 Python OOP: Operator Overloading (Less Than `<`)
+# 🐍 Python OOP: Operator Overloading (Greater Than `>`)
 
 ## 🎯 AIM
 
-To write a Python program that demonstrates **operator overloading** by overloading the **less than (`<`)** operator using a custom class.
+To write a Python program that demonstrates **operator overloading** by overloading the **greater than (`>`)** operator using a custom class.
 
 ---
 
@@ -25,7 +25,31 @@ To write a Python program that demonstrates **operator overloading** by overload
 ---
 
 ## 💻 Program
+```
+# Program to demonstrate operator overloading using ">" operator
 
+class A:
+    def __init__(self, a):
+        self.a = a
+
+    # Overloading the greater than operator
+    def __gt__(self, other):
+        if self.a > other.a:
+            return "ob1 is greater than ob2"
+        else:
+            return "ob2 is greater than ob1"
+
+
+# Create objects
+ob1 = A(10)
+ob2 = A(20)
+
+# Use ">" operator
+print(ob1 > ob2)
+
+```
 ## Output
+<img width="635" height="153" alt="image" src="https://github.com/user-attachments/assets/84dc79e2-446d-4701-bacd-23967aa20d79" />
 
 ## Result
+Thus, the Python program to demonstrate operator overloading using the greater than `(>)` operator was successfully implemented and executed. The output verified that the overloaded operator works as intended.
